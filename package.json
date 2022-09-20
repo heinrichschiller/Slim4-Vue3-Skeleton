@@ -1,0 +1,39 @@
+{
+  "name": "slim4-vue3-skeleton",
+  "version": "1.0.0",
+  "description": "My Slim4-Skeleton with Vue3-Framework integration",
+  "main": "resources/vue/main.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heinrichschiller/Slim4-Vue3-Skeleton.git"
+  },
+  "author": "Heinrich Schiller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heinrichschiller/Slim4-Vue3-Skeleton/issues"
+  },
+  "homepage": "https://github.com/heinrichschiller/Slim4-Vue3-Skeleton#readme",
+  "dependencies": {
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.9",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "vue-loader": "^17.0.0",
+    "vue-template-compiler": "^2.7.8",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
